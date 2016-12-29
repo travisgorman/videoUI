@@ -58,10 +58,10 @@ video.addEventListener('pause', updateButton);
 video.addEventListener('timeupdate', handleProgress);
 
 // toggle
-// toggle.addEventListener('click', togglePlay);
+toggle.addEventListener('click', togglePlay);
 // skipButtons
-// skipButtons.forEach(button => 
-// 	button.addEventListener('click', skip));
+skipButtons.forEach(button => 
+	button.addEventListener('click', skip));
 
 // ranges
 // ranges.forEach(range => 
