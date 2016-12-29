@@ -64,10 +64,10 @@ skipButtons.forEach(button =>
 	button.addEventListener('click', skip));
 
 // ranges
-// ranges.forEach(range => 
-// 	range.addEventListener('change', handleRangeUpdate));
-// ranges.forEach(range => 
-// 	range.addEventListener('mousemove', handleRangeUpdate));
+ranges.forEach(range => 
+	range.addEventListener('change', handleRangeUpdate));
+ranges.forEach(range => 
+	range.addEventListener('mousemove', handleRangeUpdate));
 
 // progress
 // progress.addEventListener('click', scrub);
