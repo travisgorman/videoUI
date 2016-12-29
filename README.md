@@ -1,1 +1,2 @@
-# Custom Video Player UI
+#[Custom Video Player UI](http://travis.bingo/videoUI/)
+
