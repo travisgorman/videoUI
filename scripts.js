@@ -8,6 +8,7 @@ const toggle = player.querySelector('.toggle');
 const skipButtons = player.querySelectorAll('[data-skip]');
 const ranges = player.querySelectorAll('.player__slider')
 let mousedown = false;
+
 // ============ build functions
 
 // 
@@ -29,7 +30,6 @@ function skip() {
 }
 
 // 
-
 function handleRangeUpdate() {
 	video[this.name] = this.value;
 }
@@ -42,12 +42,11 @@ function handleProgress() {
 	progressBar.style.flexBasis = `${percent}%`;
 }
 
-// // 
+// 
 function scrub(e){
 	const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
 	video.currentTime = scrubTime;
 }
-
 
 // ============ hook up event listeners
 
