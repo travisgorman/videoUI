@@ -1,13 +1,19 @@
 // ============ get elements
 	
 	// player
+	const player = document.querySelector('.player');
 	// video
+	const video = player.querySelector('.viewer');
 	// progress
+	const progress = player.querySelector('.progress');
 	// progressBar
+	const progressBar = player.querySelector('.progress__filled');
 	// toggle
+	const toggle = player.querySelector('.toggle');
 	// skipButtons
+	const skipButtons = player.querySelectorAll('[data-skip]');
 	// ranges
-
+  const ranges = player.querySelectorAll('.player__slider')
 
 // ============ build functions
 
