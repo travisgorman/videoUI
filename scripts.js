@@ -30,9 +30,9 @@ function skip() {
 
 // 
 
-// function handleRangeUpdate() {
-// 	video[this.name] = this.value;
-// }
+function handleRangeUpdate() {
+	video[this.name] = this.value;
+}
 
 // // as the `timeupdate` event on `video` fires, the progressBar
 // // grows in width because we're updating its `flexBasis` percent
