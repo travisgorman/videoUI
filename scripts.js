@@ -37,10 +37,10 @@ function handleRangeUpdate() {
 // // as the `timeupdate` event on `video` fires, the progressBar
 // // grows in width because we're updating its `flexBasis` percent
 // // listen for `timeupdate` on `video`, and
-// function handleProgress() {
-// 	const percent = (video.currentTime / video.duration) * 100;
-// 	progressBar.style.flexBasis = `${percent}%`;
-// }
+function handleProgress() {
+	const percent = (video.currentTime / video.duration) * 100;
+	progressBar.style.flexBasis = `${percent}%`;
+}
 
 // // 
 // function scrub(e){
